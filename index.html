@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A developer portfolio featuring projects, skills, and contact information.">
+	<title>Developer Portfolio</title>
+	<link rel="stylesheet" href="/style.css">
+	
+</head>
+<body>
+	<header>
+		<nav aria-label="Main navigation">
+			<a href="#home">PORTFOLIO</a>
+			<ul>
+				<li><a href="#about-me">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="home">
+		<section id="about-me" aria-labelledby="about-heading">
+			<h1 id="about-heading">About Me</h1>
+			<p>Hello! I am a developer who enjoys building useful, accessible, and thoughtful digital experiences. I’m always learning and finding new ways to solve problems with code.</p>
+		</section>
+
+		<section id="projects" aria-labelledby="projects-heading">
+			<h2 id="projects-heading">Projects</h2>
+			<article>
+				<h3>Personal Portfolio</h3>
+				<figure>
+					<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Laptop displaying charts and a modern website interface">
+					<figcaption>A responsive website introducing my work and skills.</figcaption>
+				</figure>
+				<p>A portfolio project focused on clear navigation, semantic HTML, and accessible design.</p>
+			</article>
+			<article>
+				<h3>Task Organizer</h3>
+				<figure>
+					<img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Notebook and planner used to organize everyday tasks">
+					<figcaption>A simple interface for organizing everyday tasks.</figcaption>
+				</figure>
+				<p>A concept application for tracking tasks and keeping daily plans organized.</p>
+			</article>
+		</section>
+
+		<section id="skills" aria-labelledby="skills-heading">
+			<h2 id="skills-heading">Skills</h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>Responsive design</li>
+				<li>Accessibility</li>
+				<li>Git and version control</li>
+			</ul>
+		</section>
+
+		<section id="contact" aria-labelledby="contact-heading">
+			<h2 id="contact-heading">Contact</h2>
+			<p>Use the form below to get in touch.</p>
+			<form action="#" method="post">
+				<div>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" autocomplete="name" required>
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" autocomplete="email" required>
+				</div>
+				<div>
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="5" required></textarea>
+				</div>
+				<button type="submit">Send message</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 Developer Portfolio</p>
+	</footer>
+    <script src="/script.js"></script>
+</body>
+</html>
